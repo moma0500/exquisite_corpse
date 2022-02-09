@@ -13,10 +13,10 @@
                 elle4016@colorado.edu
 
 /* THANKS */
+    humanstxt
+    Web: https://humanstxt.org/
 
-    <name>
-
-/*SITE*/
+/* SITE */
   Last Update: 02/09/2022
   Language: English
   Standards: HTML5, CSS3
