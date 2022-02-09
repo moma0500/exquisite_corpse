@@ -112,9 +112,9 @@ nav a:hover {
   display: grid;
   grid-column-gap: 10px;
   grid-template-columns: 1fr 2fr 1fr;
-  background-color: #2196F3;
+  /* background-color: #2196F3; */
   padding: 10px;
-  height: 500px;
+  height: 2000px;
 }
 
 .grid-item {
