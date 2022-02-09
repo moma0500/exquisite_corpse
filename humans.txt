@@ -3,13 +3,23 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Developers: Kaitlyn Harsch,
+                Katie Rudoff,
+                McClain Martensen &
+                Ellie Leonidas
+
+    Contact:    kaha4913@colorado.edu,
+                karu2332@colorado.edu,
+                moma0500@colorado.edu &
+                elle4016@colorado.edu
 
 # THANKS
 
     <name>
 
-# TECHNOLOGY COLOPHON
+# SITE
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+  Last Update: 02/09/2022
+  Language: English
+  Standards: HTML5, CSS3
+  IDE: Atom 
