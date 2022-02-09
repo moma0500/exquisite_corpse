@@ -5,12 +5,12 @@
 
     Developers: Kaitlyn Harsch,
                 Katie Rudoff,
-                McClain Martensen &
+                McClain Martensen,
                 Ellie Leonidas
 
     Contact:    kaha4913@colorado.edu,
                 karu2332@colorado.edu,
-                moma0500@colorado.edu &
+                moma0500@colorado.edu,
                 elle4016@colorado.edu
 
 # THANKS
@@ -22,4 +22,4 @@
   Last Update: 02/09/2022
   Language: English
   Standards: HTML5, CSS3
-  IDE: Atom 
+  IDE: Atom
