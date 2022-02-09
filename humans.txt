@@ -1,8 +1,7 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
-
+/* TEAM */
     Developers: Kaitlyn Harsch,
                 Katie Rudoff,
                 McClain Martensen,
@@ -13,12 +12,11 @@
                 moma0500@colorado.edu,
                 elle4016@colorado.edu
 
-# THANKS
+/* THANKS */
 
     <name>
 
-# SITE
-
+/*SITE*/
   Last Update: 02/09/2022
   Language: English
   Standards: HTML5, CSS3
