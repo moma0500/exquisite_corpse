@@ -1,14 +1,14 @@
 /* TEAM */
-    Developers: Kaitlyn Harsch,
-                Katie Rudoff,
-                McClain Martensen,
+    Developers: Katie Rudoff
                 Ellie Leonidas
+    Designers:  Kaitlyn Harsch
+                McClain Martensen
 
-    Contact:    kaha4913@colorado.edu,
-                karu2332@colorado.edu,
-                moma0500@colorado.edu,
-                elle4016@colorado.edu
-
+    Contact:    karu2332@colorado.edu,
+                elle4016@colorado.edu,
+                kaha4913@colorado.edu,
+                moma0500@colorado.edu
+                
 /* THANKS */
     humanstxt
     Website: https://humanstxt.org/
