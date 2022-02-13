@@ -14,9 +14,10 @@ html {
   line-height: 1.4;
 }
 
-p{
-  font-family: "Times New Roman";
+p {
+  font-family: "Helvetica";
 }
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -83,50 +84,80 @@ textarea {
    ========================================================================== */
 body {
   background-image: url("../img/noisy-texture.png");
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   margin: 0%;
 }
 
-nav {
-  background-color: #abe7ff;
-  padding: 1em;
+.main-nav {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.middle {
+  margin-left: 17vw;
+  font-size: 2em;
+  padding-top: 0;
+  font-weight: 600;
+}
+
+nav {
+  background-image: linear-gradient(to bottom, #23364a, #102039 50%, #fff 50%, #fff 100%);
+  background-size: 100% 200%;
+  padding: .1em 1em .1em 1em;
+  box-shadow: 0 0 25px 0 black;
+  align-items: baseline;
 }
 
 nav a {
   text-decoration: none;
   padding-right: 1.5em;
   font-weight: 500;
-  color: #4fa7ca;
+  color: #fff;
 }
 
 nav a:hover {
   font-weight: 700;
 }
 
-#navLink {
-  display: flex;
-  list-style: none;
+ul {
+  list-style-type: none;
 }
 
 .grid-container {
   display: grid;
-  grid-column-gap: 10px;
+  grid-column-gap: 2em;
   grid-template-columns: 1fr 2fr 1fr;
-  /* background-color: #2196F3; */
-  padding: 10px;
-  height: 2000px;
+  padding: 1em;
+  height: 100vw;
 }
 
 .grid-item {
-  background-image: url("../img/noisy-texture.png");
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  background-color: #17283b;
+  color: white;
+  padding: 2em;
+  font-size: 1em;
+  border-radius: .5em;
+}
+
+#grid1, #grid3 {
   text-align: center;
+}
+
+#grid2 {
+  text-indent: 50px;
+}
+
+#grid3 {
+  ad;
+}
+
+.location {
+  text-indent: 0px;
+  font-style: italic;
 }
 
 #headshots {
@@ -137,11 +168,57 @@ nav a:hover {
 .ads {
   width: 200px;
   height: 200px;
-  margin: 20px;
+  padding-top: 4em;
+  padding-bottom: 5em;
 }
 
 #grid2 p {
   2em;
+}
+
+/* Scrolling image taken from https://code-boxx.com/html-css-news-ticker-horizontal-vertical/ */
+/* (A) FIXED WRAPPER */
+.hwrap {
+  padding: 1em;
+  overflow: hidden;
+}
+
+/* (B) MOVING TICKER WRAPPER */
+.hmove {
+  display: flex;
+}
+
+/* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
+.hitem {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  /* padding: 10px; */
+  text-align: center;
+}
+
+/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+@keyframes tickerh {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.hmove {
+  animation: tickerh linear 10s infinite;
+}
+
+.hmove:hover {
+  animation-play-state: paused;
+}
+
+#breakingNews img {
+  height: 70px;
 }
 
 /* ==========================================================================
