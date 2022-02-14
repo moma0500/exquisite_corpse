@@ -18,6 +18,14 @@ p {
   font-family: "Helvetica";
 }
 
+h1 {
+  font-weight: 600;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -159,7 +167,14 @@ ul {
 
 .location {
   text-indent: 0px;
-  font-style: italic;
+  /* font-style: italic; */
+  margin-top: -15px;
+  padding-bottom: 20px;
+}
+
+.sub_header {
+  /* font-style: italic; */
+  margin-top: -15px;
 }
 
 .headshots {
@@ -379,7 +394,7 @@ ul {
 
   p,
   h2,
-  h3 {
+  h3{
     orphans: 3;
     widows: 3;
   }
