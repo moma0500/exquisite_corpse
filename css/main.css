@@ -173,6 +173,14 @@ ul {
   margin-top: -15px;
 }
 
+.footer {
+  font-size: 12px;
+  color: darkgrey;
+  padding-top: 30px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
 .headshots {
   width: 200px;
   height: 200px;
