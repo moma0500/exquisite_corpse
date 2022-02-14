@@ -45,6 +45,7 @@
       margin: 0 auto;
       width: 280px;
       margin-top: 2em;
+      margin-bottom: 0.5em;
       font-family: 'Poppins', sans-serif;
     }
 
@@ -65,7 +66,7 @@
 
     #image {
       width: 500px;
-      heigh: 500px;
+      height: 500px;
       padding-top: 10em;
     }
 
@@ -73,8 +74,19 @@
       background-color: #ADD8E6;
       border: 2px solid black;
       padding: 5px 11px;
-      margin-top: 1.5em;
+      margin-top: 5em;
+      padding: 5px 10px;
+      text-align: center;
+      display: inline-block;
+      font-size: 12px;
+      margin: 10px 30px;
+      cursor: pointer;
+      text-decoration:none;
+    }
 
+    a:visited {
+     text-decoration: none;
+     color: black;; 
     }
 
     @media only screen and (max-width: 280px) {
@@ -102,11 +114,7 @@
     <div class="grid-item">
     <h1>Breaking News! Page Not Found</h1>
     <p>Sorry, the page you are trying to reach does not exist.</p>
-    <a href='index.html'>
-       <button class="button">
-           Front Row News Home
-       </button>
-   </a>
+    <a href='index.html' class="button">Front Row News Home</a>
   </div>
 
   </div>
