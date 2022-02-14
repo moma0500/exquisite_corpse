@@ -178,15 +178,15 @@ ul {
 }
 
 .headshots {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .ads {
-  width: 200px;
-  height: 200px;
-  padding-top: 4em;
-  padding-bottom: 5em;
+  width: 230px;
+  height: 290px;
+  /* padding-top: 100px; */
+  padding-bottom: 100px;
 }
 
 #grid2 p {
