@@ -160,7 +160,7 @@ ul {
   font-style: italic;
 }
 
-#headshots {
+.headshots {
   width: 100px;
   height: 100px;
 }
