@@ -193,7 +193,28 @@ ul {
   padding-bottom: 100px;
 }
 
+.sideAds {
+  margin-top: 100px;
+  width: 250px;
+  padding-left: -40px;
+  padding-right: -40px;
+}
+
 .mobileGame {
+  width: 300px;
+  padding-top: 60px;
+}
+
+.mobileGame3 {
+  width: 240px;
+  height: 370px;
+  display: block;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.doctorsHate {
   width: 500px;
   height: 200px;
   display: block;
@@ -215,6 +236,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 /* Scrolling image taken from https://code-boxx.com/html-css-news-ticker-horizontal-vertical/ */
 /* (A) FIXED WRAPPER */
