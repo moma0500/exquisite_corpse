@@ -193,8 +193,17 @@ ul {
   padding-bottom: 100px;
 }
 
-.mobileGame3 {
-  width: 300px;
+.mobileGame {
+  width: 500px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adCatalog {
+  width: 600px;
+  height: 350px;
   display: block;
   margin-left: auto;
   margin-right: auto;
