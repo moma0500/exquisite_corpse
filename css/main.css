@@ -197,6 +197,13 @@ ul {
   margin-right: auto;
 }
 
+.mrClean {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #grid2 p {
   2em;
 }
